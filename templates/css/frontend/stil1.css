@@ -1,0 +1,146 @@
+
+//Comment read 
+.comment_list_text {font-size: 25px;}
+.comment_list {font-size: 15px;}
+/* .comment_button_read {color:blue;} */
+
+#image_preview 
+{ 
+	float:left;
+	display: block;
+    margin: auto;
+    width: 40%;
+}
+#content
+{
+	float : right;
+}
+/* a:hover */
+/* { */
+/* 	color :black; */
+/* } */
+/* a,a:hover, */
+/* { */
+/*   border:none; */
+/*   outline:none; */
+/*   text-decoration:none; */
+/*   color: red; */
+/* } */
+/* a:click */
+/* { */
+/* 	 color:red; */
+/* } */
+/*  a:visited */
+/*  { */
+/* 	color : blue; */
+/*  } */
+
+#button-navigation
+{
+/* 	padding-left:80%; */
+	
+}
+
+#next-button-post:link,#next-button-post:visited
+{
+/* 	background-color: #DD1C1A; */
+		background-color: #ebeaf0;
+	
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	margin-left:330px;
+	
+}
+
+#next-button-post:hover
+{
+/* 	background-color: #ebeaf0; */
+/* 		border:1px solid black; */
+	
+}
+
+#prev-button-post:link,#prev-button-post:visited
+{
+/* 	background-color: #DD1C1A; */
+		background-color: #ebeaf0;
+    color: black;
+    padding: 10px 20px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+/* 	font-size:15px; */
+}
+#prev-button-post:hover
+{
+/* 	background-color: #ebeaf0; */
+/* 	border:1px solid black; */
+}
+
+#comment_button,#like
+{
+/* 	background-color: #DD1C1A; */
+	background-color: #ebeaf0;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	border:none;
+}
+#button_post
+{
+	padding-left:340px;
+	padding-bottom:20px;
+}
+#comment_button:hover
+{
+/* 	background-color: red; */
+}
+
+#text{
+	width: 400px;
+	height: 60px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+	font-family: Tahoma, sans-serif;
+/* 	background-image: url(bg.gif); */
+/* 	background-position: bottom right; */
+/* 	background-repeat: no-repeat; */
+}
+
+#content
+{
+	padding-right:100px;
+}
+/* #comment_list */
+/* {	 */
+/* 	background-color:white; */
+/* 	padding-bottom:20px; */
+/* 	padding-top:10px; */
+/* 	padding-left:20px; */
+	
+/* } */
+
+
+#comment_text
+{
+	align:center;
+}
+
+#reply_action
+{
+	margin-left:400px;
+}
+
+.Like_state {
+	background-color: #ebeaf0 !important;
+	
+}
+.Unlike_state {
+	background-color:  #ebeaf0 !important;
+}
+
+button:focus {outline:0;}

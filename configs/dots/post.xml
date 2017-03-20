@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<dots>
+		<variable option="global">
+			<validate>
+						<shortText> 
+							<min>3</min>
+							<max>256</max>
+						</shortText>
+					<longText>
+							<min>3</min>
+							<max>1000</max>
+						</longText>
+						<price>
+							<between>
+								<min>0</min>
+								<max>10000000</max>
+							</between>
+						</price>
+						<quantity>
+							<between>
+								<min>0</min>
+								<max>100000</max>
+							</between>
+						</quantity>
+			<enum>
+					<isActive>
+						<value>0</value>
+						<value>1</value>
+					</isActive>
+					<rating>
+						<value>0</value>
+						<value>1</value>
+						<value>-1</value>
+					</rating>
+				</enum>
+					<file>
+						<image>
+							<allowedExtension>
+								<extension>jpg</extension>
+								<extension>jpeg</extension>
+								<extension>png</extension>
+							
+							</allowedExtension>
+							<allowedType>
+								<type>image/jpeg</type>
+								<type>image/png</type>
+				
+							</allowedType>
+						</image>
+					</file>
+				
+			</validate>
+			<infoMessage>
+				<postAdd>Post was succesfully added</postAdd>
+				<postUpdate>Post updated ! </postUpdate>
+				<postDelete>Post deleted ! </postDelete>
+				<commentDelete>Comment deleted ! </commentDelete>
+				<noPostDelete>No post was deleted ! </noPostDelete>
+				<noCommentDelete>No comment was deleted ! </noCommentDelete>
+				<noLike>You can't like the post, you are not logged</noLike>
+                <commentAdd>Comment posted successfully</commentAdd>
+			</infoMessage>
+
+			<warningMessage>
+                     <NoPostExist>This post Id doesn't exist !</NoPostExist>
+                     <noCommentExist>This comment Id doesn't exist !</noCommentExist>
+					   <noLike>You must be logged !</noLike>
+                     <noCommentPost>You can't comment if you're not logged</noCommentPost>
+                     <noEdit>You can edit only your own post !</noEdit>
+                     <noCommentEdit>You can edit only your own comment!</noCommentEdit>
+                     <noDelete>You can delete only your post!</noDelete>
+                     <noCommentDelete>You can delete only your comment!</noCommentDelete>
+                     <noSearch>You didn't searched anything !</noSearch>
+                     <extensionAdd>The extension is not supported !</extensionAdd>
+			</warningMessage>
+
+			<errorMessage>
+				<postAdd>Post was not succesfully added</postAdd>
+				<postUpdate>Post was not succesfully updated</postUpdate>
+				<noCommentPosted>Comment was not posted</noCommentPosted>
+			</errorMessage>
+		</variable>
+
+		<variable option="admin">
+			<pageTitle>
+				<action>
+					<list>Post list</list>
+					<add>Create Post</add>
+				</action>
+
+			</pageTitle>
+			<validate>
+				<shortText>
+					<stringLength>
+						<min>3</min>
+
+						<max>120</max>
+					</stringLength>
+				</shortText>
+			
+			</validate>
+
+			<infoMessage>
+				<postAdd>Post was succesfully added</postAdd>
+				<postUpdate>Post updated ! </postUpdate>
+				<postDelete>Post deleted ! </postDelete>
+				<noPostDelete>No post was deleted ! </noPostDelete>
+                
+			</infoMessage>
+
+			
+
+			<errorMessage>
+				<postAdd>Post was not succesfully added</postAdd>
+				<postUpdate>Post was not succesfully updated</postUpdate>
+
+			</errorMessage>
+		</variable>
+
+		<variable option="frontend">
+			<pageTitle>
+				<action>
+					<list></list>
+					<add>Create Post</add>
+
+				</action>
+
+			</pageTitle>
+			<validate>
+				<shortText>
+					<stringLength>
+						<min>3</min>
+
+						<max>120</max>
+					</stringLength>
+				</shortText>
+				<longText>
+
+				</longText>
+			</validate>
+
+		</variable>
+
+		<variable option="mobile">
+		</variable>
+
+		<variable option="rss">
+		</variable>
+	</dots>
+</config>
